@@ -1,0 +1,37 @@
+// 1. Primitive DataType
+//Ex:
+//7 Types : String, Number, Boolean, null, Undefined, Symbol, BigInt
+
+const score = 100
+const scoreValue = 100.3
+
+const isLoggenIn = false
+const outsideTemp = null
+let userEmail;
+
+const id = Symbol('123')
+const anotherId = Symbol('123')
+
+console.log(id == anotherId);
+
+const bigNumber = 23412313244276n //bigInt
+
+
+
+// 2. Reference Type(Non Primitive)
+//Ex:
+// Arrays, Objects, Functions
+const heros = ["shaktiman", "naagraj", "doga"];
+let myObj = {
+    name: "hitesh",
+    age: 22,
+}
+const myFunction = function(){
+    console.log("Hello World");
+}
+
+console.log(typeof userEmail)// undefined
+console.log(typeof bigNumber)//bigInt
+console.log(typeof myObj) // object
+console.log(typeof heros)// object
+console.log(typeof myFunction) // object function
